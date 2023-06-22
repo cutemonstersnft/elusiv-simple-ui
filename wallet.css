@@ -1,0 +1,28 @@
+.wallet-adapter-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: colors 0.15s ease-in-out;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.wallet-adapter-button:hover {
+  background-color: #E0B0FF !important;
+}
+
+.wallet-adapter-button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.wallet-adapter-button:focus-visible {
+  outline: none;
+  /* Here again, you'll need to replace with your actual theme ring color */
+  box-shadow: 0 0 0 2px #00FF00;
+}

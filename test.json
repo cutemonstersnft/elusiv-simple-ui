@@ -1,0 +1,49 @@
+Array(5)
+0
+: 
+{txType: 'SEND', amount: 80000, sig: {…}, tokenType: 'USDC', fee: 8788, …}
+1
+: 
+{txType: 'SEND', amount: 1000000, sig: {…}, tokenType: 'USDC', fee: 8946, …}
+2
+: 
+{txType: 'TOPUP', amount: 500000, sig: {…}, tokenType: 'USDC', transactionStatus: 'CONFIRMED', …}
+3
+: 
+{txType: 'SEND', amount: 1000000, sig: {…}, tokenType: 'USDC', fee: 8975, …}
+4
+: 
+{txType: 'TOPUP', amount: 1000000, sig: {…}, tokenType: 'USDC', transactionStatus: 'CONFIRMED', …}
+length
+: 
+5
+[[Prototype]]
+: 
+Array(0)
+
+2
+: 
+amount
+: 
+500000
+fee
+: 
+2713
+nonce
+: 
+3
+sig
+: 
+{blockTime: 1679196080, confirmationStatus: 'finalized', err: null, memo: null, signature: '62QHS1T9YWVZ59VSgNeQRuKcaqNr4h4Awqt4XLgbTLKYbmBHmTpFVDDbsiiQjAtUQ7hDNWycxT8SMdu2dPiaeSGe', …}
+tokenType
+: 
+"USDC"
+transactionStatus
+: 
+"CONFIRMED"
+txType
+: 
+"TOPUP"
+warden
+: 
+PublicKey {_bn: BN}
